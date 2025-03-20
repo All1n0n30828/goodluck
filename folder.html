@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Folder</title>
+<style>
+body {
+background-image: linear-gradient(black, navy, blue,aqua);
+background-repeat: no-repeat;
+background-size: 1500px 1300px;
+}
+p{
+color: aqua;
+text-align: center;
+font-family: serif, cursive;
+font-size: 25px;
+text-shadow: 0 0 15px;
+}
+.center{
+display: block;
+margin: auto;
+border-radius: 50%;
+border: 3px solid aqua;
+box-shadow: 0 0 30px aqua;
+width: 25%;
+height: 25%;
+}
+div {
+border: 3px solid aqua;
+padding: 20px;
+width: 75%;
+margin: auto;
+box-shadow: 0 0 20px aqua;
+background-color: navy;
+border-radius: 25px;
+}
+h1 {
+color: aqua;
+text-align: center;
+font-family: serif, cursive;
+font-size: 30px;
+text-shadow: 0 0 10px;
+border: 25%;
+
+}
+button {
+    font-size: 18px;
+    position: absolute;
+    left: 50%;
+    right: 50;
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid aqua;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(red, green, blue, alpha);
+    color: aqua;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    align-content: center;
+    background-color: navy;
+    box-shadow: 0 0 10px aqua;
+}
+button:before {
+transition: 0.5s all ease;
+position: absolute;
+top: 0;
+left: 50%;
+right: 50%;
+bottom: 0%;
+opacity: 0;
+content: '';
+background-color: aqua;
+z-index: -1;
+}
+button:hover, button.focus {
+    color: navy;
+}
+button:hover::before, button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 3;
+    border-radius: 25px;
+}
+button:active {
+    transform: scale(0.9);
+}
+</style>
+   <body>
+       <br>
+   <h1>WELCOME TO MY FOLDER</h1>
+    <br><br>
+<div><p>I am Agustin N.Heruela and welcome to my website, i am a student from 11-ICT A <br>
+        and to get know more abou me click the button below.</p></div>
+        <br><br><br><br>
+    <a href="Pages.html"><button>Go to Folder</button></a>
+</body>
+</head>
+</html>

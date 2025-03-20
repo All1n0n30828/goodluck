@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(black, navy, blue,aqua);
+background-repeat: no-repeat;
+background-size: 1500px 3000px;
+  }
+  h1 {
+   color: aqua;
+   text-align: Center;
+   font-family: Times New Roman;
+   text-shadow: 0 0 10px aqua;
+   font-size: 40px;
+  }
+  h3 {
+   color: aqua;
+   text-align: Center;
+   font-family: Times New Roman;
+font-size: 25px;
+text-shadow: 0 0 10px aqua;
+  }
+  h5 {
+   color: aqua;
+   text-align: Center;
+   font-family: Times New Roman;
+   font-size: 25px;
+   text-shadow: 0 0 10px aqua;
+  }
+p {
+ color: aqua;
+ font-family: Times New Roman;
+ text-align: Center;
+ font-size: 20px;
+ text-shadow: 0 0 10px aqua;
+}
+div {
+border: 3px solid aqua;
+padding: 20px;
+width: 75%;
+margin: auto;
+box-shadow: 0 0 20px aqua;
+background-color: navy;
+border-radius: 25px;
+}
+.div1 {
+  border: 3px solid aqua;
+padding: 20px;
+width: 35%;
+margin: auto;
+box-shadow: 0 0 20px aqua;
+background-color: navy;
+border-radius: 25px;
+}
+.center {
+  display: block;
+margin: auto;
+border-radius: 50%;
+border: 3px solid aqua;
+box-shadow: 0 0 30px aqua;
+width: 25%;
+height: 50%;
+}
